@@ -1,0 +1,109 @@
+*{
+    margin: 10px;
+    padding: 0px;
+}
+
+
+.traffic{
+    height: 400px;
+    width: 40px;
+    background-color: black;
+    margin-top: 235px;
+    position: relative;
+    left: 40px;
+    bottom: 250px;
+    justify-content: center;
+    align-items: center;
+
+}
+.red{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(208, 47, 19, 0.7);
+    border-radius: 50%;
+    box-shadow: red;
+}
+.green{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    background-color: rgba(69, 193, 15, 0.7);
+    box-shadow:greenyellow;
+}
+.yellow{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    background-color:rgba(199, 199, 28, 0.7);
+    box-shadow: yellow;
+}
+.traf{
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+
+}
+.line{
+    height: 20px;
+    width: 1420px;
+    background-color: black;
+    position: relative;
+    left: 27px;
+    bottom: 260px;
+    margin-left: 23px;
+}
+.poll{
+    height: 150px;
+    width: 30px;
+    background-color: black;
+    position: absolute;
+    top: 615px;
+    left: 1460px;
+
+}
+.light{
+    position: relative;
+    bottom: 250px;
+    left: 30px;
+}
+.controller_poll{
+    position: relative;
+    bottom: 295px;
+    margin-left: 1300px;
+}
+.controller{
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    position: relative;
+    bottom: 880px;
+    left: 1380px;
+
+}
+.red1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.yellow1{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.green1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    cursor:pointer;
+}
